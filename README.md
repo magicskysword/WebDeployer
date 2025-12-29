@@ -66,7 +66,7 @@ curl -X POST "http://localhost:3000/api/update?token=your_token"
 ### 拉取镜像
 
 ```bash
-docker pull ghcr.io/your-username/deployer:latest
+docker pull ghcr.io/magicskysword/webdeployer:latest
 ```
 
 ### 使用镜像运行
@@ -78,7 +78,7 @@ docker run -d \
   -e UPDATE_TOKEN=your_token \
   -e BLOG_ZIP_URL=your_blog_zip_url \
   -e DEPLOY_DIR=/app/public \
-  ghcr.io/your-username/deployer:latest
+  ghcr.io/magicskysword/webdeployer:latest
 ```
 
 ## 环境变量
@@ -92,4 +92,4 @@ docker run -d \
 
 ## 相关仓库
 
-- [Night Blog](https://github.com/magicskysword/night-blog) - 博客源码仓库
+- [Night Blog](https://github.com/magicskysword/NightBlog) - 博客源码仓库
