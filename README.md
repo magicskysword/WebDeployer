@@ -92,4 +92,4 @@ docker run -d \
 
 ## 相关仓库
 
-- [Night Blog](https://github.com/your-username/night-blog) - 博客源码仓库
+- [Night Blog](https://github.com/magicskysword/night-blog) - 博客源码仓库
